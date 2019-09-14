@@ -1,0 +1,6 @@
+schema: https://graphql.datocms.com/?apitoken=${REACT_APP_DATO_API_TOKEN_READ_ONLY}
+overwrite: true
+generates:
+  ./fragmentTypes.json:
+    plugins:
+      - fragment-matcher
